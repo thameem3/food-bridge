@@ -7,8 +7,7 @@ export default function HeroSection() {
   return (
     <section className="bg-gradient-to-r from-yellow-50 to-orange-100 py-16 px-6">
       <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10">
-        
-        {/* Left Text Section */}
+
         <div className="md:w-1/2 text-center md:text-left">
           <h1 className="text-5xl font-extrabold text-gray-800 mb-4">
             Don’t Waste Food.<br /> Share It with Someone in Need.
@@ -27,8 +26,6 @@ export default function HeroSection() {
             </Link>
           </div>
         </div>
-
-        {/* Right Image Section */}
         <div className="md:w-1/2 flex justify-center">
           <Image
             src="/hero1.png" 
