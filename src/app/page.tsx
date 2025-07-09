@@ -1,7 +1,7 @@
-import HeroSection from "@/components/home/Hero-section"
-import MissionSection from "@/components/home/Mission-section"
-import WhoCanJoin from "@/components/home/Whocanjoin"
-import ContactSection from "@/components/home/Contact-section"
+import HeroSection from "@/app/Homepage/Hero-section"
+import MissionSection from "@/app/Homepage/Mission-section"
+import WhoCanJoin from "@/app/Homepage/Whocanjoin"
+import ContactSection from "@/app/Homepage/Contact-section"
 import Footer from "@/components/shared/Footer"
 
 export default function Home() {
