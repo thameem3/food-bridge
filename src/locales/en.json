@@ -1,0 +1,53 @@
+{
+    "navbar": {
+      "home": "Home",
+      "about": "About",
+      "contact": "Contact",
+      "login": "Login",
+      "register": "Register"
+    },
+    "hero": {
+        "title": "Don’t Waste Food. Share It with Someone in Need.",
+        "description": "Whether it’s from a function, restaurant, or your kitchen — your extra food can feed someone tonight. Join us to fight hunger.",
+        "registerBtn": "Register Now",
+        "loginBtn": "Login"
+      },
+      "mission": {
+        "title": "Bridging Hunger & Food Waste",
+        "description": "Every day, quality food is wasted while millions remain hungry. Our mission is to bridge this gap by connecting food donors with NGOs that serve those in need. We believe no good food should go to waste when it can feed someone in need. Join us to make a difference — one meal at a time.",
+         "donorBtn": "Become a Donor",
+         "ngoBtn": "Become a Partner"
+      },
+
+      "whoCanJoin": {
+      "title": "Who Can Join Us?",
+      "subtitle": "Everyone has a role to play in fighting hunger.",
+  "items": [
+    { "title": "Individuals", "desc": "Anyone can donate home-cooked food and be part of our mission." },
+    { "title": "NGOs", "desc": "Work with us to deliver food to the right people at the right time." },
+    { "title": "Restaurants", "desc": "Share surplus meals and reduce food waste." },
+    { "title": "Event Managers", "desc": "Donate leftover food from large gatherings like weddings." },
+    { "title": "Volunteers", "desc": "Join hands to pick up and deliver food with care." },
+    { "title": "Corporates", "desc": "Support through CSR by partnering with regular donations." }
+  ]
+  },
+  
+    "contact": {
+      "title": "Contact Us",
+      "description": "Not sure what you need? The team at Square Events will be happy to listen to you and suggest event ideas you hadn't considered.",
+      "email": "info@squareevents.com",
+      "phone": "Support: (+91) 123 456 586",
+      "formTitle": "We’d love to hear from you!",
+      "formSubtitle": "Let’s get in touch",
+      "fullName": "Full Name",
+      "company": "Company",
+      "emailLabel": "Email",
+      "phoneLabel": "+1 (555) 000-0000",
+      "address": "Address",
+      "message": "Type your message here",
+      "submitBtn": "Send Message"
+    }
+   
+}
+  
+  
