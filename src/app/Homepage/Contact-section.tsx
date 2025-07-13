@@ -4,7 +4,7 @@ export default function ContactSection() {
   const { t } = useLanguage();
 
   return (
-    <section className="bg-gradient-to-r from-purple-700 to-indigo-800 text-white py-16 px-4">
+    <section id="contact" className="bg-gradient-to-r from-purple-700 to-indigo-800 text-white py-16 px-4">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10">
 
         <div className="space-y-6">

@@ -46,7 +46,19 @@
       "address": "Address",
       "message": "Type your message here",
       "submitBtn": "Send Message"
-    }
+    },
+    "footer": {
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact",
+    "donate": "Donate Food",
+    "joinUs": "Join Us",
+    "contactUsTitle": "Contact Us",
+    "email": "support@foodbridge.com",
+    "phone": "+91 98765 43210",
+    "copyright": "© 2025 FoodBridge. All rights reserved."
+  }
    
 }
   

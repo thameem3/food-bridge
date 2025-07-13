@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useLanguage } from "@/context/languagecontext";
+import Button from "@/components/button";
 
 export default function MissionSection() {
   const { t } = useLanguage();
@@ -14,19 +15,9 @@ export default function MissionSection() {
         <p className="text-gray-600 mb-6 text-lg">
           {t.mission.description}
         </p>
-        <div className="flex gap-4 justify-center">
-          <Link
-            href="/register?role=donor"
-            className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition"
-          >
-            {t.mission.donorBtn}
-          </Link>
-          <Link
-            href="/register?role=ngo"
-            className="border border-blue-600 text-blue-600 px-6 py-3 rounded-xl hover:bg-blue-100 transition"
-          >
-            {t.mission.ngoBtn}
-          </Link>
+        <div className="flex flex-col md:flex-row justify-center gap-4">
+          <Button label={t.mission.donorBtn} href="/register" />
+          <Button label={t.mission.ngoBtn} href="/register" variant="outlined" color="secondary" />
         </div>
       </div>
     </section>

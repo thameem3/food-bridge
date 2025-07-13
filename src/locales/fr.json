@@ -1,0 +1,60 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "contact": "Contact",
+    "login": "Connexion",
+    "register": "S'inscrire"
+  },
+  "hero": {
+    "title": "Ne gaspillez pas la nourriture. Partagez-la avec quelqu'un dans le besoin.",
+    "description": "Qu'il s'agisse d'une fonction, d'un restaurant ou de votre cuisine — votre surplus de nourriture peut nourrir quelqu'un ce soir. Rejoignez-nous pour lutter contre la faim.",
+    "registerBtn": "S'inscrire maintenant",
+    "loginBtn": "Connexion"
+  },
+  "mission": {
+    "title": "Combler la faim et le gaspillage alimentaire",
+    "description": "Chaque jour, de la nourriture de qualité est gaspillée alors que des millions de personnes ont faim. Notre mission est de combler cet écart en connectant les donateurs de nourriture aux ONG qui aident les personnes dans le besoin. Aucune bonne nourriture ne devrait être gaspillée lorsqu'elle peut nourrir quelqu'un. Rejoignez-nous pour faire la différence — un repas à la fois.",
+    "donorBtn": "Devenir Donateur",
+    "ngoBtn": "Devenir Partenaire"
+  },
+  "whoCanJoin": {
+    "title": "Qui peut nous rejoindre ?",
+    "subtitle": "Chacun a un rôle à jouer dans la lutte contre la faim.",
+    "items": [
+      { "title": "Individus", "desc": "Tout le monde peut donner de la nourriture faite maison et faire partie de notre mission." },
+      { "title": "ONG", "desc": "Travaillez avec nous pour livrer la nourriture aux bonnes personnes au bon moment." },
+      { "title": "Restaurants", "desc": "Partagez les repas excédentaires et réduisez le gaspillage alimentaire." },
+      { "title": "Organisateurs d'événements", "desc": "Donnez les restes de nourriture de grands rassemblements comme les mariages." },
+      { "title": "Bénévoles", "desc": "Joignez-vous à nous pour récupérer et livrer la nourriture avec soin." },
+      { "title": "Entreprises", "desc": "Soutenez via la RSE en faisant des dons réguliers." }
+    ]
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "description": "Vous ne savez pas de quoi vous avez besoin ? L’équipe de Square Events sera heureuse de vous écouter et de vous proposer des idées d’événements auxquelles vous n’aviez pas pensé.",
+    "email": "info@squareevents.com",
+    "phone": "Support : (+91) 123 456 586",
+    "formTitle": "Nous serions ravis d'avoir de vos nouvelles !",
+    "formSubtitle": "Entrons en contact",
+    "fullName": "Nom complet",
+    "company": "Entreprise",
+    "emailLabel": "Email",
+    "phoneLabel": "+1 (555) 000-0000",
+    "address": "Adresse",
+    "message": "Tapez votre message ici",
+    "submitBtn": "Envoyer le message"
+  },
+  "footer": {
+    "quickLinks": "Liens rapides",
+    "home": "Accueil",
+    "about": "À propos",
+    "contact": "Contact",
+    "donate": "Faire un don de nourriture",
+    "joinUs": "Rejoignez-nous",
+    "contactUsTitle": "Contactez-nous",
+    "email": "support@foodbridge.com",
+    "phone": "+91 98765 43210",
+    "copyright": "© 2025 FoodBridge. Tous droits réservés."
+  }
+}
