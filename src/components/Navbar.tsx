@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useLanguage } from "@/context/languagecontext";
 import { useState } from "react";
+import { Languages } from "next/dist/lib/metadata/types/alternative-urls-types";
 
 export default function Navbar() {
   const { language, setLanguage, t } = useLanguage();
@@ -14,15 +15,16 @@ export default function Navbar() {
     { code: "hi", label: "हिन्दी" },
   ];
 
+  const translations = languages.map((lang) => (lang))
+
   return (
     <nav className="bg-white shadow-md p-5 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        {/* Logo */}
         <Link href="/" className="text-3xl font-bold text-blue-600">
           FoodBridge
         </Link>
 
-        {/* Desktop Nav */}
+
         <div className="space-x-6 hidden md:flex items-center text-blue-600">
           <Link href="/">{t.navbar.home}</Link>
           <Link href="/about">{t.navbar.about}</Link>
@@ -30,12 +32,11 @@ export default function Navbar() {
           <Link href="/login">{t.navbar.login}</Link>
           <Link href="/register">{t.navbar.register}</Link>
 
-          {/* Language Dropdown */}
+        
           <select
             value={language}
             onChange={(e) => setLanguage(e.target.value as any)}
-            className="border px-2 py-1 rounded text-sm"
-          >
+            className="border px-2 py-1 rounded text-sm">
             {languages.map((lang) => (
               <option key={lang.code} value={lang.code}>
                 {lang.label}
@@ -44,13 +45,11 @@ export default function Navbar() {
           </select>
         </div>
 
-        {/* Mobile Hamburger & Lang Dropdown */}
         <div className="md:hidden flex items-center gap-2">
           <select
             value={language}
             onChange={(e) => setLanguage(e.target.value as any)}
-            className="border px-2 py-1 rounded text-sm "
-          >
+            className="border px-2 py-1 rounded text-sm ">
             {languages.map((lang) => (
               <option key={lang.code} value={lang.code}>
                 {lang.label}
@@ -60,14 +59,12 @@ export default function Navbar() {
 
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="text-2xl font-bold text-blue-600"
-          >
+            className="text-2xl font-bold text-blue-600">
             ☰
           </button>
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden mt-3 px-4 space-y-3 text-blue-600">
           <Link href="/" onClick={() => setMenuOpen(false)}>{t.navbar.home}</Link>
